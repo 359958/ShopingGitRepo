@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29519.87
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopingCart.Api", "ShopingCart.Api.csproj", "{7757CA42-D72A-480E-B1EA-2B704EF8B7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopingCart.Api", "ShopingCart.Api.csproj", "{7757CA42-D72A-480E-B1EA-2B704EF8B7DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4F64E4D-1511-410D-8F95-EF868F5DCD4A} = {B4F64E4D-1511-410D-8F95-EF868F5DCD4A}
+		{F339BBB9-22B5-4FFD-93ED-288DEB614655} = {F339BBB9-22B5-4FFD-93ED-288DEB614655}
+		{FDC8F2F2-ADEA-4307-976A-D15850D63FCC} = {FDC8F2F2-ADEA-4307-976A-D15850D63FCC}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopingCart.Core", "..\ShopingCart.Core\ShopingCart.Core.csproj", "{FDC8F2F2-ADEA-4307-976A-D15850D63FCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopingCart.Core", "..\ShopingCart.Core\ShopingCart.Core.csproj", "{FDC8F2F2-ADEA-4307-976A-D15850D63FCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopingCart.Service", "..\ShopingCart.Service\ShopingCart.Service.csproj", "{B4F64E4D-1511-410D-8F95-EF868F5DCD4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopingCart.Service", "..\ShopingCart.Service\ShopingCart.Service.csproj", "{B4F64E4D-1511-410D-8F95-EF868F5DCD4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShpiingCart.Data", "..\ShpiingCart.Data\ShpiingCart.Data.csproj", "{F339BBB9-22B5-4FFD-93ED-288DEB614655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShpiingCart.Data", "..\ShpiingCart.Data\ShpiingCart.Data.csproj", "{F339BBB9-22B5-4FFD-93ED-288DEB614655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
